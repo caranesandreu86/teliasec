@@ -2,7 +2,6 @@
 ---
 layout: single
 title: "Contacto"
-permalink: /about/
 ---
 
 ## Contacta con nosotros
@@ -15,5 +14,6 @@ permalink: /about/
 
 ### También puedes encontrarnos en:
 - 📍 Madrid, España
-- 🌐 https://teliasec.com
+- 🌐 https://www.teliasec.com
+
 
