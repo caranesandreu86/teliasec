@@ -36,9 +36,9 @@ nav:
   - title: "Inicio"
     url: /
   - title: "Servicios"
-    url: /servicios/
+    url: /service/
   - title: "Contacto"
-    url: /contacto/
+    url: /about/
 
 author:
   name: "Teliasec"
