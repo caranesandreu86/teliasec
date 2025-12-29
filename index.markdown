@@ -1,4 +1,3 @@
-
 ---
 layout: splash
 title: "Impulsamos tu negocio con tecnología"
@@ -11,7 +10,7 @@ header:
     - label: "Nuestros servicios"
       url: "/service/"
       class: "btn btn--primary"
-excerpt: "Soluciones IT, Ciberseguridad y Desarrollo Web para empresas."
+excerpt: "Soluciones IT y Desarrollo Web para empresas."
 ---
 
 ## Bienvenido a Teliasec
