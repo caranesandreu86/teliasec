@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#0b1f2d"
   overlay_filter: "0.3"
-  overlay_image: "_site/assets/images/hero-office.jpg"
+  overlay_image: "assets/images/hero-office.jpg"
   actions:
     - label: "Nuestros servicios"
       url: "/service/"
