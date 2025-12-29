@@ -1,3 +1,4 @@
+
 ---
 layout: splash
 title: "Impulsamos tu negocio con tecnología"
@@ -8,9 +9,11 @@ header:
   overlay_image: "/assets/images/hero-office.jpg"
   actions:
     - label: "Nuestros servicios"
-      url: "/servicios/"
+      url: "/service/"
+      class: "btn btn--primary"
 excerpt: "Soluciones IT, Ciberseguridad y Desarrollo Web para empresas."
 ---
 
 ## Bienvenido a Teliasec
+
 Ofrecemos soluciones tecnológicas para que tu empresa crezca segura y eficiente.

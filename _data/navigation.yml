@@ -1,0 +1,8 @@
+
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Servicios"
+    url: /service/
+  - title: "Contacto"
+    url: /about/

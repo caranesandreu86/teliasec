@@ -18,28 +18,46 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+
 title: "Teliasec"
 description: "Soluciones tecnológicas para tu empresa"
 lang: "es"
 url: "https://teliasec.com"
-baseurl: ""
+baseurl: ""   # Mantén vacío si tu web está en la raíz del dominio.
 
 # Tema y apariencia
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"  # Opciones: default, air, aqua, contrast, dark, mint, neon, etc.
+minimal_mistakes_skin: "dark"  # Otros: default, air, aqua, contrast, mint, neon...
 
+# Plugins
 plugins:
   - jekyll-include-cache
+  # Si NO usas GitHub Pages para compilar y despliegas tú (Netlify, VPS, servidor propio), descomenta:
+  # - jekyll-remote-theme
+  # Recomendados para SEO y sitemap (opcionales):
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Navegación superior
-nav:
-  - title: "Inicio"
-    url: /
-  - title: "Servicios"
-    url: /service/
-  - title: "Contacto"
-    url: /about/
+# Valores por defecto para páginas
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
 
+# Autor
 author:
   name: "Teliasec"
   email: "info@teliasec.com"
+
+# Excluir archivos que no deben compilarse
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
