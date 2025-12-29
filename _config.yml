@@ -20,21 +20,27 @@
 
 title: "Teliasec"
 description: "Soluciones tecnológicas para tu empresa"
-url: "https://teliasec.com"   # Tu dominio personalizado
-baseurl: ""                   # Déjalo vacío si la web está en la raíz
-theme: minima                 # Tema Jekyll básico y limpio
-
-# SEO básico
-plugins:
-  - jekyll-seo-tag
-
-# Configuración de idioma
 lang: "es"
+url: "https://teliasec.com"
+baseurl: ""
 
-# Datos del autor (opcional)
+# Tema y apariencia
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"  # Opciones: default, air, aqua, contrast, dark, mint, neon, etc.
+
+plugins:
+  - jekyll-include-cache
+
+# Navegación superior
+nav:
+  - title: "Inicio"
+    url: /
+  - title: "Servicios"
+    url: /servicios/
+  - title: "Contacto"
+    url: /contacto/
+
 author:
   name: "Teliasec"
   email: "info@teliasec.com"
-
-# Configuración de Markdown
-markdown: kramdown
+``
