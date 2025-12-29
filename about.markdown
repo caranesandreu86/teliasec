@@ -17,4 +17,3 @@ permalink: /about/
 - 📍 Madrid, España
 - 🌐 https://teliasec.com
 
-{% include button.html label="Solicitar información" url="mailto:info@teliasec.com" class="btn btn--primary" %}
