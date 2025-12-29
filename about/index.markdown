@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: "Contacto"
@@ -6,7 +5,7 @@ title: "Contacto"
 
 ## Contacta con nosotros
 
-¿Tienes dudas o necesitas una solución tecnológica? Escríbenos:
+¿Tienes dudas o necesitas una solución tecnológica? Escríbenos ahora:
 
 📧 info@teliasec.com
 
