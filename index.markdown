@@ -1,6 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: "Inicio"
+permalink: /
 ---
+
+# Bienvenido a Teliasec
+En **Teliasec** ofrecemos soluciones tecnológicas para impulsar tu negocio. 
+Nuestra misión: simplificar la tecnología para que tú te concentres en crecer.
+
+Conoce nuestros servicios
