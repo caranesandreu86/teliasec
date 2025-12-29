@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Servicios"
+title: "Servicio"
 ---
 
 ## Nuestros Servicios
