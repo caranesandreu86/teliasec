@@ -131,6 +131,7 @@ img { max-width: 100%; display: block; }
 /* Servicios */
 .services-container { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .service-item { display: flex; gap: 20px; margin-bottom: 30px; padding: 25px; background: rgba(255,255,255,0.03); border-radius: 10px; border-left: 3px solid var(--primary); }
+.service-item:last-child { margin-bottom: 0; } /* Ajuste fino de la altura del bloque con el 4to ítem */
 .service-number { font-size: 2rem; font-weight: 800; color: var(--primary); opacity: 0.5; }
 .services-image-wrapper img { border-radius: 20px; box-shadow: 0 0 40px rgba(0, 212, 255, 0.15); width: 100%; }
 
